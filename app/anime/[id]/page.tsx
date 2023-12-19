@@ -4,7 +4,6 @@ import { animeList, AnimeData } from "@/app/lib/anim-dummy"
 import Image from "next/image"
 import Link from "next/link"
 import {
-    ArrowDownRightIcon,
     ArrowLeftIcon
 } from "@heroicons/react/16/solid"
 

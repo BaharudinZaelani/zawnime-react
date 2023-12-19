@@ -1,7 +1,16 @@
+import Link from "next/link";
+import { metadata } from "../layout";
+
 export default function Header() {
     return (
-        <>
-            <h1>This is header Components</h1>
-        </>
+        <div className="w-[90%]">
+            <h1>
+                <Link
+                    href="/"
+                >
+                    {metadata.title?.toString()}
+                </Link>
+            </h1>
+        </div>
     )
 }
